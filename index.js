@@ -18,7 +18,7 @@ app.use(helmet())
 
 const isProduction = process.env.NODE_ENV === 'production'
 const origin = {
-    origin: isProduction ? 'https://first-ehsan-node-api.herokuapp.com/' : '*',
+    origin: isProduction ? 'https://first-ehsan-node-api.herokuapp.com' : '*',
 }
 app.use(cors(origin))
 
