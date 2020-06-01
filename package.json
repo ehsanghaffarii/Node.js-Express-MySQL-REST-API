@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A REST API with Node.js, Express & MySQL ",
   "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "start": "node index.js",
     "start:dev": "nodemon index.js",
@@ -15,5 +18,15 @@
     "MySQL"
   ],
   "author": "Ehsan Ghaffarii",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "pool-mysql": "^1.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
