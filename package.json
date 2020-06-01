@@ -1,0 +1,19 @@
+{
+  "name": "restapi-project",
+  "version": "1.0.0",
+  "description": "A REST API with Node.js, Express & MySQL ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "test": "echo \"Error: on test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node.js",
+    "REST",
+    "API",
+    "MySQL"
+  ],
+  "author": "Ehsan Ghaffarii",
+  "license": "ISC"
+}

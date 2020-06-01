@@ -1,0 +1,20 @@
+{
+    "sqltools.connections": [
+
+
+        {
+            "askForPassword": false,
+            "database": "books_api",
+            "driver": "MySQL",
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "name": "local-database",
+            "password": "",
+            "port": 3306,
+            "previewLimit": 50,
+            "server": "localhost",
+            "username": "root"
+        }
+    ]
+}
